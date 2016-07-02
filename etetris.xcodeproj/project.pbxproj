@@ -16,6 +16,7 @@
 		403032A81D273CE600A1FF34 /* etetrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403032A71D273CE600A1FF34 /* etetrisTests.swift */; };
 		403032B31D273CE600A1FF34 /* etetrisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403032B21D273CE600A1FF34 /* etetrisUITests.swift */; };
 		407336AA1D274520000A4B98 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407336A91D274520000A4B98 /* Block.swift */; settings = {ASSET_TAGS = (); }; };
+		407336AC1D2747B6000A4B98 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407336AB1D2747B6000A4B98 /* Shape.swift */; settings = {ASSET_TAGS = (); }; };
 		40F284761D274061003DA179 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 40F284751D274061003DA179 /* Sounds */; settings = {ASSET_TAGS = (); }; };
 		40F284781D274092003DA179 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 40F284771D274092003DA179 /* Sprites.atlas */; settings = {ASSET_TAGS = (); }; };
 		40F2847A1D27418A003DA179 /* 2d.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F284791D27418A003DA179 /* 2d.swift */; settings = {ASSET_TAGS = (); }; };
@@ -54,6 +55,7 @@
 		403032B21D273CE600A1FF34 /* etetrisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = etetrisUITests.swift; sourceTree = "<group>"; };
 		403032B41D273CE600A1FF34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		407336A91D274520000A4B98 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		407336AB1D2747B6000A4B98 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Shape.swift; path = ../Shape.swift; sourceTree = "<group>"; };
 		40F284751D274061003DA179 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		40F284771D274092003DA179 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 		40F284791D27418A003DA179 /* 2d.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 2d.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				403032941D273CE600A1FF34 /* GameViewController.swift */,
 				40F284791D27418A003DA179 /* 2d.swift */,
 				407336A91D274520000A4B98 /* Block.swift */,
+				407336AB1D2747B6000A4B98 /* Shape.swift */,
 				403032961D273CE600A1FF34 /* Main.storyboard */,
 				403032991D273CE600A1FF34 /* Assets.xcassets */,
 				4030329B1D273CE600A1FF34 /* LaunchScreen.storyboard */,
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				407336AA1D274520000A4B98 /* Block.swift in Sources */,
+				407336AC1D2747B6000A4B98 /* Shape.swift in Sources */,
 				403032931D273CE600A1FF34 /* GameScene.swift in Sources */,
 				40F2847A1D27418A003DA179 /* 2d.swift in Sources */,
 				403032951D273CE600A1FF34 /* GameViewController.swift in Sources */,
