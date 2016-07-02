@@ -15,6 +15,9 @@
 		4030329D1D273CE600A1FF34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4030329B1D273CE600A1FF34 /* LaunchScreen.storyboard */; };
 		403032A81D273CE600A1FF34 /* etetrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403032A71D273CE600A1FF34 /* etetrisTests.swift */; };
 		403032B31D273CE600A1FF34 /* etetrisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403032B21D273CE600A1FF34 /* etetrisUITests.swift */; };
+		40F284761D274061003DA179 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 40F284751D274061003DA179 /* Sounds */; settings = {ASSET_TAGS = (); }; };
+		40F284781D274092003DA179 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 40F284771D274092003DA179 /* Sprites.atlas */; settings = {ASSET_TAGS = (); }; };
+		40F2847A1D27418A003DA179 /* 2d.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F284791D27418A003DA179 /* 2d.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		403032AE1D273CE600A1FF34 /* etetrisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = etetrisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		403032B21D273CE600A1FF34 /* etetrisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = etetrisUITests.swift; sourceTree = "<group>"; };
 		403032B41D273CE600A1FF34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F284751D274061003DA179 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		40F284771D274092003DA179 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		40F284791D27418A003DA179 /* 2d.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 2d.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,11 @@
 		4030328D1D273CE600A1FF34 /* etetris */ = {
 			isa = PBXGroup;
 			children = (
+				40F284741D27404A003DA179 /* SupportingFiles */,
 				4030328E1D273CE600A1FF34 /* AppDelegate.swift */,
 				403032921D273CE600A1FF34 /* GameScene.swift */,
 				403032941D273CE600A1FF34 /* GameViewController.swift */,
+				40F284791D27418A003DA179 /* 2d.swift */,
 				403032961D273CE600A1FF34 /* Main.storyboard */,
 				403032991D273CE600A1FF34 /* Assets.xcassets */,
 				4030329B1D273CE600A1FF34 /* LaunchScreen.storyboard */,
@@ -126,6 +134,15 @@
 				403032B41D273CE600A1FF34 /* Info.plist */,
 			);
 			path = etetrisUITests;
+			sourceTree = "<group>";
+		};
+		40F284741D27404A003DA179 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				40F284771D274092003DA179 /* Sprites.atlas */,
+				40F284751D274061003DA179 /* Sounds */,
+			);
+			name = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +250,9 @@
 			files = (
 				4030329D1D273CE600A1FF34 /* LaunchScreen.storyboard in Resources */,
 				4030329A1D273CE600A1FF34 /* Assets.xcassets in Resources */,
+				40F284761D274061003DA179 /* Sounds in Resources */,
 				403032981D273CE600A1FF34 /* Main.storyboard in Resources */,
+				40F284781D274092003DA179 /* Sprites.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				403032931D273CE600A1FF34 /* GameScene.swift in Sources */,
+				40F2847A1D27418A003DA179 /* 2d.swift in Sources */,
 				403032951D273CE600A1FF34 /* GameViewController.swift in Sources */,
 				4030328F1D273CE600A1FF34 /* AppDelegate.swift in Sources */,
 			);
@@ -487,6 +507,7 @@
 				403032B91D273CE600A1FF34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		403032BA1D273CE600A1FF34 /* Build configuration list for PBXNativeTarget "etetrisTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +516,7 @@
 				403032BC1D273CE600A1FF34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		403032BD1D273CE600A1FF34 /* Build configuration list for PBXNativeTarget "etetrisUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +525,7 @@
 				403032BF1D273CE600A1FF34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
